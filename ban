@@ -1,4 +1,5 @@
-local name = game.Players:GetNameFromUserIdAsync(915645977)
-game.Players:SetLocalPlayerInfo(915645977, name, name, Enum.MembershipType.Premium, false)
+local id = 170757125
+local name = game.Players:GetNameFromUserIdAsync(id)
+game.Players:SetLocalPlayerInfo(id, name, name, Enum.MembershipType.Premium, false)
 wait(.1)
 game.Players.LocalPlayer.PlayerGui.BanUi.Enabled = true
